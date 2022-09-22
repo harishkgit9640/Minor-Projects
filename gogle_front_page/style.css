@@ -1,0 +1,55 @@
+body{
+    margin: 20px; 
+    background-color: #2e2e2e;
+}
+/*Logo*/
+.logo{
+    padding: 50%;
+}
+
+/*heading line*/
+.head {
+    float: right;
+    display: flex;
+}
+
+.head .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.head .content .links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 4px;
+
+}
+.head .content .links a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #fff;
+    margin: 2px;
+    border-radius: 50%;
+}
+.prof {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
