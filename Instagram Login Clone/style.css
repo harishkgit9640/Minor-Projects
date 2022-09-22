@@ -1,0 +1,210 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 100vh;
+  width: 100%;
+}
+select{
+  width: 91px;
+  background-color: transparent;
+  color: #8e8e8e;
+  border: none;
+  margin: 5px auto;
+  font-size: 12px;
+  font-weight: initial;
+  text-transform: initial;
+}
+.language{
+  text-align: center;
+}
+.main{
+  width: auto;
+    margin: 0px auto;
+    align-items: center;
+}
+.main img {
+    display: block;
+    width: 175px;
+    max-width: 70%;
+    margin: 40px auto;
+}
+.facebook_login,  .form-container button{
+    margin: 30px auto 0 auto;
+    max-width: 300px;
+    width: 77%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.facebook_login{
+    background: #0095f6;
+}
+.or{
+    max-width: 300px;
+    display: block;
+    width: 70%;
+    margin: 2px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8d8f91;
+    font-size: 15px;
+}
+.main hr{
+    display: inline-flex;
+    background: #dbdbdb;
+    width: 39%;
+    margin: 5px 1px;
+}
+
+
+.form-container {
+    height: 100px;
+    margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+form {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 300px;
+  border-radius: 3px;
+  height: 200px;
+  margin-top: 120px;
+}
+
+.input-container {
+    position: relative;
+    height: 40px;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    transition: background-color 500ms;
+    border-radius: 3px;
+}
+
+.input-container:hover {
+  background-color: #ececec;
+}
+
+.input-container:focus-within {
+  background-color: #dcdcdc;
+}
+
+.password{
+    margin-top: -10px;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  color: #9d9086;
+  transform-origin: left top;
+  user-select: none;
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1),color 150ms cubic-bezier(0.4, 0, 0.2, 1), top 500ms;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  caret-color: var(--accent-color);
+  border: 1px solid transparent;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: border 500ms;
+  padding: 20px 16px 6px;
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+}
+
+input:focus + label {
+  color: var(--accent-color);
+}
+
+input:focus + label,
+input.is-valid + label {
+  transform: translateY(-100%) scale(0.75);
+}
+
+.forgot-password a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #0095f6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    float: right;
+    padding: 10px 0px;
+}
+
+.form-container .sumbit{
+    background-color: #b2dffc;
+    width: 100% !important;
+    max-width: 300px;
+    line-height: 25px;
+    margin-top: 30px
+}
+.signup{
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8d8f91;
+}
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0095f6;
+}
+.main footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    transform: scale(0.3);
+}
+
+footer img{
+  transform: scale(1.1);
+}
+footer p{
+    transform: scale(5);
+    font-size: 12px;
+}
+
+.main footer{
+    color: #8d8f91;
+    margin: -15px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
